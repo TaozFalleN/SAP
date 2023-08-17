@@ -1,0 +1,216 @@
+
+/* CAMBIO DE OPACIDAD EN EL FONDO OSCURO DEL MODAL */
+.modal-backdrop.show {
+    opacity: 1
+}
+/* CAMBIO DE OPACIDAD EN EL FONDO OSCURO DEL MODAL */
+
+/* CAMBIO DE BORDES EN INPUTS */
+.off-canvas-form-control[data=blue], .form-control[data=blue]:focus {
+    border-color: #1d8cf8;
+}
+.off-canvas-form-control[data=green], .form-control[data=green]:focus {
+    border-color: #00c9b7;
+}
+.off-canvas-form-control[data=orange], .form-control[data=orange]:focus {
+    border-color: #ff8277;
+}
+/* CAMBIO DE BORDES EN INPUT */
+
+
+/* CAMBIO DE CHECKBOX */
+.off-canvas-form-check[data=blue], .form-check[data=blue] input[type=checkbox]:checked+.form-check-sign:before {
+    border: none;
+    background-color: #1d8cf8
+}
+.off-canvas-form-check[data=green], .form-check[data=green] input[type=checkbox]:checked+.form-check-sign:before {
+    border: none;
+    background-color: #00c9b7
+}
+.off-canvas-form-check[data=orange], .form-check[data=orange] input[type=checkbox]:checked+.form-check-sign:before {
+    border: none;
+    background-color: #ff8277
+}
+/* CAMBIO DE CHECKBOX */
+
+/* ESTILOS SEPARADOR */
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+/* ESTILOS SEPARADOR */
+
+
+/* CAMBIO DE BORDES TEXTAREA */
+.text-area-bordered{
+    border: 1px solid #2b3553 !important; 
+}
+/* CAMBIO DE BORDES TEXTAREA */
+
+
+/* COLOR OSCURO DE TEXTO EN BUSCADOR DE SELECTPICKER Y CAMBIO DE COLOR POR DEFECTO DE LAS OPTIONES DENTRO DE UN SELECT, ESTO DEBIDO A QUE EN EL MODO OSCURO EL TEXTO SE PONE POR DEFECTO EN BLANCO QUEDANDO ILEGIBLES*/
+.bs-searchbox input, select option{
+    color: black !important;
+}
+/* COLOR OSCURO DE TEXTO EN BUSCADOR DE SELECTPICKER Y CAMBIO DE COLOR POR DEFECTO DE LAS OPTIONES DENTRO DE UN SELECT, ESTO DEBIDO A QUE EN EL MODO OSCURO EL TEXTO SE PONE POR DEFECTO EN BLANCO QUEDANDO ILEGIBLES */
+
+
+/* CAMBIO DE CURSOR EN HOVER */
+.pointer:hover{
+    cursor: pointer;
+}
+/* CAMBIO DE CURSOR EN HOVER */
+
+
+/* LOADER PARA BOTON DE ENVIO DE FORMULARIO */
+.loader {
+    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    float: right;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+/* LOADER PARA BOTON DE ENVIO DE FORMULARIO */
+
+
+/* ESTILOS SEPARADORES DE FORMULARIOS */
+.folder-tag a{
+    margin-bottom: 0;
+    border-radius: 4px 4px 0px 0px !important;
+    pointer-events: none;
+}
+
+.folder-tag hr{
+    margin-top: 0;
+}
+/* ESTILOS SEPARADORES DE FORMULARIOS */
+
+
+/* CAMBIO DE COLOR SEPARADORES DE FORMULARIOS */
+
+.off-canvas-folder-tag[data=blue], .folder-tag[data=blue] a, .folder-tag[data=blue] hr{
+    background: #1d8cf8
+}
+.off-canvas-folder-tag[data=green], .folder-tag[data=green] a, .folder-tag[data=green] hr{
+    background: #00c9b7
+}
+.off-canvas-folder-tag[data=orange], .folder-tag[data=orange] a, .folder-tag[data=orange] hr{
+    background: #ff8277
+}
+/* CAMBIO DE COLOR SEPARADORES DE FORMULARIOS */
+
+/* CAMBIO DE COLOR TABLAS */
+
+.off-canvas-table-themed[data=blue], .table-themed[data=blue] {
+    background: #1d8cf8
+}
+.off-canvas-table-themed[data=green], .table-themed[data=green] {
+    background: #00c9b7
+}
+.off-canvas-table-themed[data=orange], .table-themed[data=orange] {
+    background: #ff8277
+}
+/* CAMBIO DE COLOR TABLAS */
+
+
+/* CAMBIO PROPIEDAD HOVER EN CARDS */
+.off-canvas-card-hover[data=blue], .card-hover:hover[data=blue]{
+    border: #1d8cf8;
+    transition: 0.7s;
+    border-style: solid;
+    border-width: thin;
+}
+
+.off-canvas-card-hover[data=green], .card-hover:hover[data=green]{
+    border: #00c9b7;
+    transition: 0.7s;
+    border-style: solid;
+    border-width: thin;
+}
+
+.off-canvas-card-hover[data=orange], .card-hover:hover[data=orange]{
+    border: #ff6491;
+    transition: 0.7s;
+    border-style: solid;
+    border-width: thin;
+}
+/* CAMBIO PROPIEDAD HOVER EN CARDS */
+
+/* CAMBIO DE COLOR CARDS COLORIDAS */
+
+.off-canvas-card-themed[data=blue], .card-themed[data=blue] {
+    background: linear-gradient(0deg, #3358f4, #1d8cf8);
+}
+.off-canvas-card-themed[data=green], .card-themed[data=green] {
+    background: linear-gradient(0deg, #0098f0, #00c9b7);
+}
+.off-canvas-card-themed[data=orange], .card-themed[data=orange] {
+    background: linear-gradient(0deg, #ff6491, #ff8d72);
+}
+/* CAMBIO DE CARDS COLORIDAS */
+
+
+/* REMOVER FLECHAS EN INPUT NUMBER */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* REMOVER FLECHAS EN INPUT NUMBER */
+
+/* BORDES TABLA */
+.bordered{
+    border-collapse: collapse; 
+    border-radius: .2857rem; 
+    overflow: hidden;
+}
+/* BORDES TABLA */
+
+/* AGREGA MARGEN SUPERIOR A LOS ICONOS DE ERROR Y SUCCESS PARA LAS VALIDACIONES */
+.has-danger:after, .has-success:after{
+    margin-top: 1.5rem;
+}
+/* AGREGA MARGEN SUPERIOR A LOS ICONOS DE ERROR Y SUCCESS PARA LAS VALIDACIONES */
+
+/* AGREGA MARGEN SUPERIOR ADICIONAL A LOS ICONOS DE ERROR Y SUCCESS PARA LAS VALIDACIONES EN MODALES */
+.modal-body .has-danger:after, .modal-body .has-success:after{
+    margin-top: 2rem;
+}
+/* AGREGA MARGEN SUPERIOR ADICIONAL A LOS ICONOS DE ERROR Y SUCCESS PARA LAS VALIDACIONES EN MODALES */
+
+/* SOBREESCRIBE EL MARGEN INFERIOR DE LOS INPUT PARA DEJAR EL TEXTO DE ERROR EN VALIDACION MAS CERCA DEL INPUT */
+.has-danger .form-control,
+.has-danger .input-group-append .input-group-text,
+.has-danger.input-group-focus .input-group-append .input-group-text,
+.has-danger.input-group-focus .input-group-prepend .input-group-text,
+.has-danger .input-group-prepend .input-group-text {
+    margin-bottom: 5px !important;
+}
+/* SOBREESCRIBE EL MARGEN INFERIOR DE LOS INPUT PARA DEJAR EL TEXTO DE ERROR EN VALIDACION MAS CERCA DEL INPUT */
+
+/* DEFINE LOS COLORES PARA LOS BORDES DE LOS INPUTS EN CASO DE VALIDACION CORRECTA E INCORRECTA */
+.has-success .form-control{
+    border-color: #00bf9a;
+}
+
+.has-danger .form-control{
+    border-color: #ec250d;
+}
+/* DEFINE LOS COLORES PARA LOS BORDES DE LOS INPUTS EN CASO DE VALIDACION CORRECTA E INCORRECTA */

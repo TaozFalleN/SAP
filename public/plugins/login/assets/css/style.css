@@ -1,0 +1,108 @@
+:root {
+    --color-uno: #253787;
+    --color-dos: #8298dd;
+    --color-dos-t: rgba(130,152,221,.2);
+    --color-tres: #c63465;
+}
+
+* { font-family: 'Manrope', sans-serif; }
+
+h2 { color: var(--color-uno); }
+
+.logo { width: 100px; }
+
+/* Fondo contenedor izquierdo*/
+.dg { 
+    background: linear-gradient(322.1deg, rgba(0,0,92,100%) 8%, rgba(100,149,237,.5) 99.1%), url(../images/svg/fondo-sis.svg) fixed;
+    background-size:cover;
+}
+
+/* Estilos contenedor derecho */
+/* Fondo contenedor */
+.dg-dos { 
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    color: var(--color-uno);
+}
+
+/* Contendor formulario sombra de caja */
+.sombra-caja {
+    -webkit-box-shadow: 10px 10px 97px -5px rgba(89,102,163,1);
+    -moz-box-shadow: 10px 10px 97px -5px rgba(89,102,163,1);
+    box-shadow: 10px 10px 97px -5px rgba(89,102,163,.2);
+    transition: 300ms all ease;
+}
+
+.sombra-caja:hover {
+    -webkit-box-shadow: 10px 10px 97px -5px rgba(89,102,163,1);
+    -moz-box-shadow: 10px 10px 97px -5px rgba(89,102,163,1);
+    box-shadow: 10px 10px 97px -5px rgba(89,102,163,.6);
+}
+
+
+/* Estilos Redes Sociales, www.losangeles.cl */
+.rs a{
+    color: var(--color-dos);
+    text-decoration: none;
+    transition: 300ms all ease;
+}
+
+.rs a:hover { color: var(--color-uno); }
+.rs__nav a{ padding-right: 1rem; }
+
+
+/* Estilos formulario */
+/* Boton Submit */
+.btn-grad { background-image: linear-gradient(to right, #4b6cb7 0%, #182848  51%, #4b6cb7  100%)}
+.btn-grad {
+   padding: 15px 45px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;           
+   box-shadow: 0 0 20px rgb(179, 179, 179);
+   border-radius:.6rem;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center;
+   text-decoration: none;
+ }
+
+/* Estilos Input */
+.usuario {
+    position: relative;
+    color: var(--color-dos);
+}
+
+.usuario label{
+    position: absolute;    
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.usuario input {
+    color: var(--color-dos);
+    background-color: var(--color-dos-t);
+    border: none;
+    transition: 300ms all ease;
+    padding-left: 40px;
+    border-radius: .5rem;
+}
+
+ .usuario input::placeholder {
+    color: var(--color-dos);
+  }
+
+.usuario input:hover {
+    box-shadow: 0 0 20px rgba(153, 157, 190, .2);
+}
+
+.pie-form a{
+    color: var(--color-dos);
+    text-decoration: none;
+    transition: 300ms all ease;
+}
+
+.pie-form a:hover{
+    color: var(--color-uno);
+}
